@@ -6,9 +6,9 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./tab-c.component.scss']
 })
 export class TabCComponent implements OnInit {
-public text  !: string
   constructor() { }
-
+public name !: string;
+public text !:string
   ngOnInit(): void {
   }
 

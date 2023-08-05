@@ -1,3 +1,16 @@
-<input type="text" [(ngModel)]="text">
+<h2 class="bg-success p-4">two way data binding</h2>
+<div class="container">
+    <div class="row mt-2">
+        <div class="col-md-12">
+           <div class="form-group">
+            <label for="text">enter text</label>
+            <input type="text" [(ngModel)]="name" value="enter message" class="form-control">
+            <h4 class=" mb-4 p-3 text-center">{{name}}</h4>
+            <label for="text">enter text</label>
+            <input type="text" [(ngModel)]="text" class="form-control">
+            <h4 class=" mb-4 p-3 text-center">{{text}}</h4>
+           </div>
 
-<P >{{text}}</P>
+        </div>
+    </div>
+</div>
